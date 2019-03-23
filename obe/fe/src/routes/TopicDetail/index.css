@@ -1,0 +1,19 @@
+.discussTitle {
+    display: inline-block;
+    margin-right: 10px;
+}
+.discussNum {
+    color: #666;
+}
+
+/* 回复部分的样式 */
+.replyWrap {
+    margin: 15px 0 0 35px;
+    min-height: 50px;
+}
+.reply, .delete {
+    color: #999;
+}
+.resetBtn {
+    margin-left: 20px;
+}

@@ -1,0 +1,30 @@
+/* onlineStudy styles */
+/* common styles start */
+.fLeft {
+    float: left;
+}
+
+.fRight {
+    float: right;
+}
+/* common styles end */
+.discussRow {
+    padding: 20px 24px 10px 24px;
+}
+.discussTitle {
+    display: inline-block;
+    margin-right: 10px;
+}
+.discussNum {
+    color: #666;
+}
+.resetBtn {
+    margin-left: 20px;
+}
+
+/* .commentWrap {
+    padding: 0 24px;
+} */
+.reply, .delete {
+    color: #666;
+}

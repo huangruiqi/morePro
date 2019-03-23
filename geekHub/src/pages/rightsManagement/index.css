@@ -1,0 +1,13 @@
+.rightsManagementTable th div {
+    text-align: center;
+}
+.rightsManagementTable tr {
+    text-align: center;
+}
+.rightsManagementTableButton {
+    margin: 0 4px;
+}
+.rightsManagementFormText {
+    text-align: right;
+    line-height: 2.8;
+}

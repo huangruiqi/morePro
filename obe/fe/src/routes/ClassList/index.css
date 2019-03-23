@@ -1,0 +1,11 @@
+.classList {
+	color: #211f1f;
+	font-size: 14px;
+	width: 1000px;
+	/*margin: 50px;*/
+}
+.title {
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+}

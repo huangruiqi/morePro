@@ -1,0 +1,12 @@
+.container {
+	width: 100%;
+}
+
+.titleNav {
+	/*width: 80%;*/
+	margin: 0 auto;
+	padding: 20px 0 5px;
+	/*border-bottom: 1px dashed #108ee9;*/
+	font-size: 16.5px;
+	color: #108ee9;
+}

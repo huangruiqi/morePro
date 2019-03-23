@@ -1,0 +1,52 @@
+.registWrap {
+	width: 100%;
+	height: 100%;
+}
+
+.sysTitle {
+	width: 100%;
+	padding: 100px 0 35px;
+	font-size: 60px;
+	letter-spacing: 4px;
+	text-align: center;
+	color: #108ee9;
+}
+
+.registForm {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.registInput {
+	height: 40px;
+}
+
+.registInput input {
+	display: block;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #108ee9; 
+	padding: 5px 0;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #108ee9;
+	background-color: #fff !important;
+}
+
+.registBtn {
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+	font-size: 18px;
+	letter-spacing: 10px;
+	color: #108ee9;
+}
+
+.icon {
+	font-size: 15px;
+	color: #108ee9;
+}
+
+.type {
+	color: #108ee9;
+}

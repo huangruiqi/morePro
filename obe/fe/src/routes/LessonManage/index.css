@@ -1,0 +1,60 @@
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*background-color: grey;*/
+}
+
+.navWrap, .addBtnWrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.addBtn {
+	margin: 18px 0 0 0;
+	cursor: pointer;
+}
+
+.tableWrap {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px 0 20px;
+}
+
+.editLessonBtn, .deleteLessonBtn {
+	padding-right: 8px;
+	cursor: pointer;
+}
+
+.subBtn {
+	padding: 20px 0;
+	text-align: center;
+}
+/* 任务列表 */
+.taskListWrap {
+	width: 100%;
+}
+
+.taskAddBtn {
+	display: block;
+	padding: 5px 0;
+	font-size: 17px;
+	text-align: left;
+	color: #108ee9;
+	cursor: pointer;
+}
+
+.taskItemField {
+	display: inline-block;
+	width: 67%;
+	margin-right: 3%;
+}
+
+.taskItemField2 {
+	display: inline-block;
+	width: 30%;
+}
+
+.taskAddTips {
+	color: #FF3030;
+}

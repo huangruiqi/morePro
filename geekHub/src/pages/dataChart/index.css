@@ -1,0 +1,56 @@
+.dataCard_wrapper{
+    width:220px;
+    height:100px;
+    display: flex;
+    padding:20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.icon_wrapper{
+    text-align: center;
+    margin-right: 10px;
+}
+.dataCard_wrapper h1{
+    font-weight: bold;
+}
+img{
+    width:40px;
+    height:40px;
+    margin-bottom: 3px;
+}
+.Header {
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+    margin-bottom:20px;
+}
+.pieChart{
+    width:500px;
+    height:300px;
+}
+.barChart{
+    width:600px;
+    height:300px;
+}
+.chartsGroup{
+    display: flex;
+}
+.lineChart {
+    width:1000px;
+    height:400px;
+}
+.lineGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.selectTime {
+    margin-top:340px;
+    margin-left:20px;
+}
+.drawer{
+    height:60px;
+    display: flex;
+    justify-content: center;
+}

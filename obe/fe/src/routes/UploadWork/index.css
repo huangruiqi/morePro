@@ -1,0 +1,35 @@
+.upload {
+	color: #211f1f;
+	font-size: 14px;
+	/*width: 840px;*/
+	width: 600px;
+	/*margin: 50px;*/
+}
+.title {
+	font-size: 24px;
+}
+.endTime {
+	margin: 30px 0;
+}
+.endTime span {
+	padding: 4px 18px;
+	background-color: #e6e6e6;
+}
+.fileList {
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.fileList p.instruction {
+	color: #ccc;
+	margin-top: 5px;
+}
+.comment {
+	background-color: #f6f6f6;
+}
+.comment, .message {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: none;
+}

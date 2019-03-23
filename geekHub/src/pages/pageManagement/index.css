@@ -1,0 +1,21 @@
+.pageManagementCardDiv {
+    display: flex;
+    flex-direction: row;
+}
+.pageManagementImgBox {
+    height: 200px;
+    width: 60%;
+    margin-right: 20px;
+}
+.pageManagementImg {
+    width: 100%;
+    height: 100%;
+}
+
+.pageManagementActionBox {
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

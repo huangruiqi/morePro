@@ -1,0 +1,47 @@
+.sider_left{
+    height:100%;
+    box-sizing: border-box;
+    position:fixed;
+}
+.logo{
+    height:55px;
+    background-color:#334454;
+    color:white;
+    margin: 18px;
+    letter-spacing: 1px;
+    line-height:55px;
+    font-size:16px;
+    text-align: center;
+}
+.div_right {
+    margin-left: 200px;
+    height:100vh;
+    position: relative;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.ant-layout.ant-layout-has-sider>.ant-layout,
+.ant-layout.ant-layout-has-sider>.ant-layout-content {
+    overflow-x: visible;
+}
+
+.main_content{
+    height:calc(100vh-60px);
+    overflow-y:auto;
+    overflow-x: visible;
+    padding:24px 16px 0;
+    box-sizing: border-box;
+}
+.userInfoWrapper{
+    margin:16px 0 20px 30px;
+    color:white;
+}
+.logout{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.showRouterName {
+    color:#80868b;
+    height:60px;
+    background-color: rgb(240, 242, 245);
+}

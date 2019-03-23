@@ -1,0 +1,32 @@
+
+.articalContainer {
+    width: auto;
+    height: 100%;
+}
+.sendDiv {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.message {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea {
+    width: 100%;
+}
+table {
+    width:100%;
+}
+tr {
+    height: 10px;
+}
+td {
+    height: 10px;
+}
