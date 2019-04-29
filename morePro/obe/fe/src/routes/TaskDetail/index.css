@@ -1,0 +1,87 @@
+/* 在线学习详情样式 */
+/* common styles start */
+.fLeft {
+    float: left;
+}
+
+.fRight {
+    float: right;
+}
+/* common styles end */
+.wrap {
+    padding: 24px;
+}
+.discussRow {
+    padding: 20px 24px 10px 24px;
+    border-bottom: 1px solid #eee;
+}
+.discussTitle {
+    display: inline-block;
+    margin-right: 10px;
+}
+.discussNum {
+    color: #666;
+}
+.taskInfoWrap {
+    padding-right: 20px; 
+}
+.taskContent {
+    text-indent: 2em;
+}
+
+/* 回复部分的样式 */
+.replyWrap {
+    margin: 15px 0 0 35px;
+    min-height: 50px;
+}
+.reply, .delete {
+    color: #999;
+}
+.commentWrap {
+    padding: 0 24px;
+}
+.resetBtn {
+    margin-left: 20px;
+}
+
+/* 资料预览框样式start */
+.reviewWrap {
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    z-index: 1000;
+}
+.review {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(100, 100, 100, 0.5)
+}
+.close {
+    position: absolute;
+    display: inline-block;
+    width: 44px;
+    height: 34px;
+    right: 0;
+    top: 1px;
+    background-color: rgb(72,72,72);
+    color: #fefefe;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 10;
+    cursor: pointer;
+}
+/* 资料预览框样式end */

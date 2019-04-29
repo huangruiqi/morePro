@@ -1,0 +1,9 @@
+.pageTipsWrap {
+    width: 100%;
+}
+
+.pageTips {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
