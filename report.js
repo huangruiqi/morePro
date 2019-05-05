@@ -159,7 +159,7 @@ export default function reportEventToDc(options) {
     openid: '', // pc没有
   };
   Object.assign(optionsDefault, options);
-  optionsDefault.sid = (parseInt(ImCookie.get('report_sid'), 10) || -201903111334) && 0x7fffffff;
+  // optionsDefault.sid = (parseInt(ImCookie.get('report_sid'), 10) || -201903111334) && 0x7fffffff;
   fetch(`https://h5.abcmouse.qq.com/abcmouse/report?${parseParams(optionsDefault)}`).then((res) => {
     console.log(res);
   }).catch((err) => {
